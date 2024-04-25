@@ -1,0 +1,27 @@
+.post-wrapper1 {
+    width: 100%;
+    display: flex;
+  
+    flex-direction: row;
+  
+    gap: 10px;
+   justify-content: space-around;
+   padding: 10px;
+    
+  }
+  .post-card1 {
+   
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    gap: 10px;
+    
+    
+  }
+  .profile{
+    width: 100%;
+    background-color: bisque;
+    border-radius: 20px;
+    padding: 20px;
+  }

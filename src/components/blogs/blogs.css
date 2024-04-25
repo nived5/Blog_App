@@ -1,0 +1,70 @@
+.post-wrapper {
+  width: 100%;
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding-top: 10px;
+}
+.post-card {
+  width: 50%;
+  background-color: bisque;
+  border-radius: 20px;
+  padding: 20px;
+}
+.add-icon{
+  background-color:violet;
+  position: fixed;
+  top: 500px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  /* align-items: center;
+  justify-content:center; */
+  box-shadow: 3px;
+  cursor: pointer;
+  float: right;
+
+}
+.icon{
+  display:flex;
+
+  align-items:center;
+  
+  justify-content:center;
+  
+  height: 40px;
+  width: 40px;
+  
+  color:white
+}
+.modal-wrapper{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.title{
+  display: flex;
+  gap: 60px;
+}
+.description{
+  display: flex;
+  gap: 15px;
+  
+}
+.button{
+  width: 100%;
+  border: none;
+  background-color:grey;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.font{
+  color:darkgoldenrod;
+}
+.image-size{
+width: 100px;
+}
